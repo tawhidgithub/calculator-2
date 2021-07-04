@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="card">
+        <div class="cale_head">
+            <input type="text" id="result" maxlength="10">
+        </div>
+        <div class="calc_body">
+
+            <div>
+                <input type="button" class="btn" value="C" onclick="clearfunction()">
+                <input type="button" class="btn" value="+/-" onclick="numberfunctio('+/-')">
+                <input type="button" class="btn" value="%" onclick="numberfunctio('%')">
+                <input type="button" class="btn btn_style" value="/" onclick="numberfunctio('/')">
+            </div>
+            <div>
+                <input type="button" class="btn" value="7" onclick="numberfunctio(7)">
+                <input type="button" class="btn" value="8" onclick="numberfunctio(8)">
+                <input type="button" class="btn" value="9" onclick="numberfunctio(9)">
+                <input type="button" class="btn btn_style" value="X" onclick="numberfunctio('*')">
+
+            </div>
+            <div>
+                <input type="button" class="btn" value="4" onclick="numberfunctio(4)">
+                <input type="button" class="btn" value="5" onclick="numberfunctio(5)">
+                <input type="button" class="btn" value="6" onclick="numberfunctio(6)">
+                <input type="button" class="btn btn_style" value="-" onclick="numberfunctio('-')">
+            </div>
+            <div>
+                <input type="button" class="btn" value="1" onclick="numberfunctio(1)">
+                <input type="button" class="btn" value="2" onclick="numberfunctio(2)">
+                <input type="button" class="btn" value="3" onclick="numberfunctio(3)">
+                <input type="button" class="btn btn_style" value="+" onclick="numberfunctio('+')">
+            </div>
+            <div>
+                <input type="button" class="btn" value="0" onclick="numberfunctio(0)">
+                <input type="button" class="btn" value="." onclick="numberfunctio('.')">
+                <input type="button" class="btn" value="DEL" onclick="delletelestnumber()">
+                <input type="button" class="btn" style="background-color: orange;" value="=" onclick="calculet()">
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
